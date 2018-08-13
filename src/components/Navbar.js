@@ -5,7 +5,7 @@ import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
+  <nav className="navbar is-transparent is-fixed-top">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
@@ -13,26 +13,25 @@ const Navbar = () => (
             <img src={logo} alt="Jason Quach (Huu Thuan)" style={{ width: '88px' }} />
           </figure>
         </Link>
-      </div>
-      <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About Me
-        </Link>
-        <Link className="navbar-item" to="/products">
-          Products
-        </Link>
-      </div>
-      <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="https://github.com/thuanqh/my-blog"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
+
+        <a className="navbar-burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
+      </div>
+      <div className="navbar-menu" id="navMenu">
+        <div className="navbar-start">
+          
+        </div>
+        <div className="navbar-end">
+          <Link className="navbar-item" to="/about">
+            About Me
+          </Link>
+          <Link className="navbar-item" to="/products">
+            Products
+          </Link>
+        </div>
       </div>
     </div>
   </nav>
