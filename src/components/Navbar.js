@@ -12,6 +12,7 @@ const Navbar = () => (
           <figure className="image">
             <img src={logo} alt="Jason Quach (Huu Thuan)" style={{ width: '88px' }} />
           </figure>
+          Jason Quach (Huu Thuan)
         </Link>
 
         <a className="navbar-burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
