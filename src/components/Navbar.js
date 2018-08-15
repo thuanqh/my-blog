@@ -1,41 +1,53 @@
-import React from 'react'
-import Link from 'gatsby-link'
-
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import React from 'react';
+import Link from 'gatsby-link';
 
 const Navbar = () => (
-  <nav className="navbar is-transparent is-fixed-top">
-    <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src="https://avatars0.githubusercontent.com/u/1658423?s=460&v=4" alt="Jason Quach (Huu Thuan)" style={{ width: '32px' }} />
-          </figure>
-          Jason Quach (Huu Thuan)
-        </Link>
+  <section className="hero is-medium is-primary is-bold">
+  
+    <div className="hero-head">
+      <nav className="navbar">
+        <div className="container">
+          <div className="navbar-brand">
+            <a className="navbar-item">
+              <Link to="/">
+                <img src="https://avatars2.githubusercontent.com/u/1658423?s=40&v=4" alt="Logo" />
+                Jason Quach (Huu Thuan)
+              </Link>
+            </a>
+            <span className="navbar-burger burger" data-target="navbarMenuHero">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHero" className="navbar-menu">
+            <div className="navbar-end">
+              <a className="navbar-item is-active">
+                Home
+              </a>
+              <a className="navbar-item">
+                Category
+              </a>
+              <a className="navbar-item">
+                About Me
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-        <a className="navbar-burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <div className="navbar-menu" id="navMenu">
-        <div className="navbar-start">
-          
-        </div>
-        <div className="navbar-end">
-          <Link className="navbar-item" to="/about">
-            About Me
-          </Link>
-          <Link className="navbar-item" to="/products">
-            Products
-          </Link>
-        </div>
+    <div className="hero-body">
+      <div className="container has-text-centered">
+        <h1 className="title">
+          Welcome to My Tutorials.
+        </h1>
+        <h2 className="subtitle">
+          A few things to share with you...
+        </h2>
       </div>
     </div>
-  </nav>
+  </section>
 )
 
 export default Navbar

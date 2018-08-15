@@ -7,14 +7,13 @@ export default class IndexPage extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
-    return (
+    return (  
       <section className="section">
-        <div className="container">
+        <div className="container"> 
           {posts
             .map(({ node: post }) => (
               <div
                 className="content"
-                style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
                 key={post.id}
               >
                 <p>
