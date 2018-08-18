@@ -68,6 +68,12 @@ module.exports = class HTML extends React.Component {
                     }
                   
                   });
+                  
+                  
+                  window.onscroll = () => {
+                    const topnav = document.querySelector('#topnav');
+                    if(this.scrollY <= 10) topnav.className='navbar is-transparent is-fixed-top'; else topnav.className='navbar is-fixed-top scroll';
+                  };
                 `,
             }}
             />
