@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hero-blog",
+  "name": "jason-blog",
   "version": "1.0.1",
-  "author": "Greg Lobinski <greglobinski@gmail.com>",
+  "author": "Jason Quach (Huu Thuan) <thuanqh@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "antd": "^3.7.0",

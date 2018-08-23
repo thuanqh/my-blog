@@ -1,28 +1,6 @@
 ---
-title: About
+title: About Me
 menuTitle: About Me
 ---
 
-This is a demo site of the [HeroBlog](https://github.com/greglobinski/gatsby-starter-hero-blog), a [GatsbyJS](https://www.gatsbyjs.org/) starter.
-
-### Features:
-
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **CSS** with `styled-jsx` and `PostCSS`
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (category based post list)
-* Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* 100% **PWA** (manifest.webmanifest, offline support, favicons)
-* Google **Analytics**
-* App **favicons** generator (node script)
-* Easy customizable base **styles** via `theme` object generated from `yaml` file (fonts, colors, sizes)
-* React **v.16** (gatsby-plugin-react-next)
-* **Components** lazy loading (social sharing)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Webpack `BundleAnalyzerPlugin`
+Jason Quach (Huu Thuan) is a serial entrepreneur, business and marketing strategist, author, inventor, and career coach. He has over 16 years of experience in architecting practical, cost-effective, and innovative solutions. Being a creative thinker and having an entrepreneurial spirit has enabled him to be the lead or co-inventor on numerous utility patent applications. He is a multifaceted, collaborative management professional who is highly skilled at managing products through the entire life cycle, from design to obsolescence, including specification and use case definitions, production software implementation, and hardware implementation. He's a passionate, resourceful leader who demands and delivers excellence in design and user experience. He has a proven track record as a principal architect, leader, and strategist for successful business and technology ventures.
