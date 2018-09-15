@@ -11,7 +11,7 @@ module.exports = {
   authorTwitterAccount: "huuthuan",
   // info
   headerTitle: "Jason Quach",
-  headerSubTitle: "a few things to share with you",
+  headerSubTitle: "In giving, I learn how to receive.",
   // manifest.json
   manifestName: "Jason Quach - The tutorials and blogs",
   manifestShortName: "JasonQuach", // max 12 characters
