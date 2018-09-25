@@ -3,8 +3,6 @@ title: What I could help?
 menuTitle: Service
 ---
 
-
-
 ## Software Craftsman
 
 Let's build a better product together.
