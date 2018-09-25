@@ -1,11 +1,13 @@
 ---
-title: What I could help you?
+title: What I could help?
 menuTitle: Service
 ---
 
-> Your GREATENESS is not WHAT YOU HAVE, It's WHAT YOU GIVE.
+
 
 ## Software Craftsman
+
+Let's build a better product together.
 
 ### Apps + Mobile
 
@@ -18,6 +20,8 @@ menuTitle: Service
 ### VR/AR/MR
 
 ## Design
+
+Let's make a better user experience together.
 
 ## Innovation Consulting
 
