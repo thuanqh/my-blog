@@ -2,4 +2,4 @@
 title: footnote
 ---
 
-* Copyright 2018
+* Copyright &copy; 2018
