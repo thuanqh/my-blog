@@ -1,6 +1,6 @@
 ---
 title: What We could help?
-menuTitle: Service
+menuTitle: Services
 ---
 
 ## Design
