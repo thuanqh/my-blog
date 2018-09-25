@@ -1,9 +1,9 @@
 ---
-title: My Service
-menuTitle: My Service
+title: What I could help you?
+menuTitle: Service
 ---
 
-I coudl help you some services.
+> Your GREATENESS is not WHAT YOU HAVE, It's WHAT YOU GIVE.
 
 ## Software Craftsman
 
