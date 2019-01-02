@@ -17,8 +17,12 @@ In the last 10 years, innovation-driven companies have outperformed the S&P 500 
 
 ### Financial Modeling
 
+---
+
 ## Design & UX
 Our designers create engaging custom app and web designs from scratch. They will get to know you and your business, helping you build a brand which fits and leaves a lasting impression on your customers. The right design draws your users in and makes them feel comfortable. Our design team can create a coherent look and feel across different platforms that will make using your product a delight.
+
+---
 
 ## Software Craftsman
 
@@ -35,6 +39,8 @@ Complex business logic, database-driven sites, legacy integrations — these are
 ### Data Science
 
 ### VR/AR/MR
+
+---
 
 ## Training & Coaching
 
@@ -58,5 +64,7 @@ Learn form a leading expert how to effectively apply the product owner role and 
 ### Agile, Scrum, eXtreme Programing and Kanban
 
 ### Growth Hacks
+
+---
 
 ## Startup Mentoring
