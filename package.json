@@ -27,7 +27,7 @@
     "gatsby"
   ],
   "scripts": {
-    "clean": "gatsby clean && rm -rf node_modules && rm yarn.lock",
+    "clean": "rm -rf node_modules && rm -rf .cache && rm -rf public && rm yarn.lock",
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "dev": "gatsby develop"
