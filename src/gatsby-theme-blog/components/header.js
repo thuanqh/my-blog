@@ -20,7 +20,7 @@ export default (props) => (
         },
       })}
     >
-      Notes
+      Ghi chú
     </Styled.a>
   </Header>
 );

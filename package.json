@@ -4,17 +4,18 @@
   "author": "Jason Quach <thuanqh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
     "@theme-ui/color": "^0.3.5",
     "@theme-ui/presets": "^0.3.5",
     "@theme-ui/prism": "^0.3.5",
     "gatsby": "^2.32.3",
     "gatsby-plugin-theme-ui": "^0.3.5",
     "gatsby-theme-blog": "^2.0.5",
+    "gatsby-theme-i18n": "^1.0.5",
+    "gatsby-theme-i18n-react-intl": "^1.0.4",
     "gatsby-theme-notes": "^2.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-intl": "^5.12.2",
     "theme-ui": "^0.3.5"
   },
   "keywords": [
