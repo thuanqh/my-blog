@@ -2,45 +2,24 @@ module.exports = {
   pathPrefix: "/my-blog",
 };
 module.exports = {
+  siteMetadata: {
+    title: `Blog for tutorial`,
+    siteUrl: `https://thuanqh.github.io/my-blog`,
+  },
   plugins: [
     `gatsby-plugin-theme-ui`,
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-theme-blog`,
       options: {
-        extensions: [`.mdx`, `.md`],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1380,
-              linkImagesToOriginal: false,
-            },
-          },
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-          },
-          {
-            resolve: `gatsby-remark-smartypants`,
-          },
-        ],
-        remarkPlugins: [require(`remark-slug`)],
+        prismPreset: `prism-okadia`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-theme-notes`,
       options: {
-        name: `content/assets`,
-        path: `content/assets`,
+        mdx: false,
+        basePath: `/notes`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content/posts`,
-        path: `content/posts`,
-      },
-    },
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
   ],
 };
